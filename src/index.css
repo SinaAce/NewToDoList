@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-slate-500 w-screen h-screen flex justify-center items-center;
+}
+@layer components {
+  .container {
+    @apply w-[1100px] h-[650px] bg-slate-500 shadow-2xl;
+  }
+  .header {
+    @apply w-full h-1/6 flex justify-center items-center bg-slate-600;
+  }
+  .body {
+    @apply w-full h-5/6 bg-slate-400;
+  }
+  .title {
+    @apply font-bold text-[2em];
+  }
+  .flexCenter {
+    @apply flex justify-center items-center;
+  }
+  .flexCenterCol {
+    @apply flex flex-col justify-center items-center;
+  }
+}

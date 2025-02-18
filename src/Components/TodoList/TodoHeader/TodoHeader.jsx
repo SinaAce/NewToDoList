@@ -6,10 +6,10 @@ const TodoHeader = () => {
   return (
     <>
       <div
-        className="header title text-slate-400"
+        className="header title"
         style={{
-          color: isDark ? "#ffffff" : "#ccc ",
-          background: isDark ? "black" : "#475569",
+          color: isDark ? "#CBD5E1" : "#94a3b8",
+          background: isDark ? "#0f172a" : "#475569",
         }}
       >
         To Do List

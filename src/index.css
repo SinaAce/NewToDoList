@@ -7,7 +7,7 @@ body {
 }
 @layer components {
   .container {
-    @apply w-[1100px] h-[650px] bg-slate-500 shadow-2xl;
+    @apply w-[1100px] h-[650px] shadow-2xl;
   }
   .header {
     @apply w-full h-1/6 flex justify-center items-center bg-slate-600;

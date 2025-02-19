@@ -1,6 +1,9 @@
 import { MdRadioButtonUnchecked } from "react-icons/md";
+import { CiCircleRemove } from "react-icons/ci";
 
-const Task = ({task}) => {
+const Task = ({ task, dispatch }) => {
+ 
+
   return (
     <>
       {task.map((e, index) => (
@@ -17,6 +20,10 @@ const Task = ({task}) => {
           <div className=" w-[100px] bg-yellow-400 p-1 rounded-md flexCenter">
             {e.status}
           </div>
+          <CiCircleRemove
+            className="size-9 cursor-pointer text-red-800"
+            onClick={() => dispatch({ type: "delete", payload: index })}
+          />
         </div>
       ))}
     </>

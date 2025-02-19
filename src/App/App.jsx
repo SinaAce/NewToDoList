@@ -1,4 +1,4 @@
-import { ThemeProvider, useTheme } from "../Components/Theme/Theme";
+import { ThemeProvider, useTheme } from "./../Theme/Theme";
 import TodoList from "../Components/TodoList/TodoList";
 import "@fontsource/work-sans";
 

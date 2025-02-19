@@ -2,7 +2,10 @@ import { useReducer, useState } from "react";
 import AddTask from "./AddTask/AddTask";
 import Task from "./Task/Task";
 import { useTheme } from "../../../Theme/Theme";
-import { ActionHandler, initialState } from "../../ActionsHandler/ActionHandler";
+import {
+  ActionHandler,
+  initialState,
+} from "../../ActionsHandler/ActionHandler";
 
 const TodoBody = () => {
   // const [task, setTask] = useState([]);
